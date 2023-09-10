@@ -1,0 +1,23 @@
+/* Estilos para la tabla */
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+/* Estilos para el formulario */
+form {
+    margin: 20px;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+/* Estilos para las divisiones (div) con clase "container" */
+.container {
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 20px;
+}

@@ -1,0 +1,70 @@
+/*
+primari= #e63946
+secundary= #f1faee
+info = #a8dadc
+alert = #457b9d
+danger = #1d3557
+*/
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+}
+.mt-2{
+    margin-top: 2rem;
+}
+.logo{
+    display: block;
+    font-size: 3rem;
+    padding: 1em;
+    text-decoration: none;
+    text-align: center;
+    background-color: #e63946;
+    color: #f1faee;
+}
+.btn-primary{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5em;
+    margin: 0 0.1em;
+    border-radius: 0.5em;
+    box-shadow: 10px 5px 5px #1d3557;
+    background-color: #f1faee;
+    color: #a8dadc;
+    text-align: center;
+}
+.card{
+    width: 38rem;
+    background-color: #457b9d;
+    overflow: hidden;
+    color: #f1faee;
+    border-radius: 0.5em;
+    box-shadow: 5px 2.5px 5px #1d3557;
+}
+.card-img{
+    width: 100%;
+}
+.card-body{
+    padding: 1em;
+}
+.card-body h5{
+    font-size: 1.5rem;
+    margin: 1em 0;
+}
+.card-body p{
+    font-weight: 300;
+}
+
+
+

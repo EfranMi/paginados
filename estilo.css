@@ -1,0 +1,55 @@
+/* Resetear márgenes y padding por defecto */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado h1 */
+h1 {
+    color: red;
+}
+
+/* Estilos para el párrafo p */
+p {
+    background-color: lightyellow;
+    margin: 20px;
+    padding: 10px;
+}
+
+/* Estilos para la tabla */
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+/* Estilos para el formulario */
+form {
+    margin: 20px;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+/* Estilos para las divisiones (div) con clase "container" */
+.container {
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 20px;
+}
+
+/* Estilos para el menú */
+.menu {
+    margin-top: 20px;
+    text-align: center;
+}
+.menu-button {
+    width: 150px;
+    height: 40px;
+    background-color: #1a237e;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
